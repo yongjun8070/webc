@@ -1,0 +1,243 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.wrap{
+    width: 1000px;
+    height: 650px;
+    margin : 0 auto;
+    display: flex;
+}
+.left{
+    width: 200px;
+    height: 650px;
+}
+.logo{
+    width: 200px;
+    height: 80px;
+   
+    
+}
+.logo img{
+    width: 200px;
+    margin-top: 10px;
+    
+}
+.menu{
+    width: 200px;
+    height: 570px;
+    
+}
+.menu>ul{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.menu>ul>li{
+    width: 150px;
+    line-height: 40px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.menu>ul>li>a:hover{
+    background-color:beige   ;
+}
+.submenu>li>a:hover{
+    background-color: beige;
+}
+.menu>ul>li>a{
+    display: block;
+    color: black;
+}
+.submenu>li>a{
+    color: black;
+    display: block;
+}
+.submenu{
+    display: none;
+}
+.right{
+    width: 800px;
+    height: 650px;
+}
+.slide{
+    width: 800px;
+    height: 350px;
+    overflow: hidden;
+}
+.slidewrap>ul{
+    display: flex;
+}
+.slidewrap img{
+    width: 800px;
+}
+.content{
+    display: flex;
+    width: 800px;
+    height: 200px;
+}
+.ng{
+    width: 266px;
+    height: 200px;
+    border: 1px solid black;
+}
+.tab{
+    display: flex;
+    margin-left: 10px;
+}
+.tab>div{
+    width: 70px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 10px;
+    color: black;
+}
+
+.tab>div>a{
+    display: block;
+}
+.gtab a{
+    color: black;
+}
+.ntab>a{
+    background-color: black;
+    color: white;
+}
+.notice>ul>li{
+    margin-left: 10px;
+    width: 240px;
+    border-bottom: 1px solid black;
+    line-height:35px;
+}
+.notice>ul{
+    margin-top: 10px;
+}
+.notice>ul>li>a{
+    color: black;
+}
+.notice span{
+    float: right;
+}
+
+
+.gallery img{
+    width: 70px;
+    height: 70px;
+   
+    margin-top:20px;
+}
+.gallery{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 240px;
+    height: 120px;
+    border-top:1px solid black;
+    border-bottom: 1px solid black;
+    display: none;
+}
+.gallery>ul{
+    display: flex;
+}
+.gallery>ul>li{
+    text-align: center;
+}
+.notice{
+    
+}
+.link>ul{
+    display: flex;
+    text-align: center;
+}
+.link img{
+    width:  60px;
+    height: 60px;
+    margin-top: 50px;
+}
+.banner{
+    width: 266px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+}
+.banner img{
+    width: 70px;
+    height: 70px;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+.btxt{
+    margin-top: 70px;
+    margin-left: 5px;
+}
+.arrow{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.link{
+    width: 266px;
+    height: 200px;
+    border: 1px solid black;
+}
+footer{
+    display: flex;
+    width: 800px;
+    height: 100px;
+}
+.flogo{
+    width: 150px;
+    height: 100px;
+    
+}
+.flogo img{
+    width: 150px;
+    height: 70px;
+    margin-top: 15px;
+}
+.ftwo{
+    width: 650px;
+    height: 100px;
+}
+.fmenu{
+    width: 650px;
+    height: 50px;
+    border: 1px solid black;
+}
+.fmenu>p{
+    margin-left: 10px;
+    margin-top: 13px;
+    
+}
+.copy{
+    width: 650px;
+    height: 50px;
+    border: 1px solid black;
+}
+.copy>p{
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.popup{
+    width: 500px;
+    height: 300px;
+    border:1px solid black;
+    position: fixed;
+    top: 200px;
+    left: 800px;
+    background-color: white;
+    display: none;
+}
+.title{
+    border-bottom: 1px solid black;
+}
+.button{
+    width: 50px;
+    border:1px solid black;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top:470px;
+    left: 1230px;
+}
